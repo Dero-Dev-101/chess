@@ -5,8 +5,7 @@ This project is a chess game for the Dero blockchain.
 ## Acknowledgements
 
 This project builds upon the original work done by [Andy Williams](https://github.com/andydotxyz). We would like to thank them for developing the initial version and making it available as open source. Their work has been instrumental in the development of this Dero version.
-
-You can find the original repository here: [Link to Original Repository]
+You can find the original repository [here](https://github.com/andydotxyz/chess)
 
 ## Running
 
