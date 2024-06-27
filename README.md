@@ -1,20 +1,19 @@
 # Chess
 
-The subject of my current live stream series.
-A simple chess UI built with [Fyne](https://fyne.io).
+This project is a chess game for the Dero blockchain.
 
-Thanks to:
+## Acknowledgements
 
-* Chess Go library by Logan Spears github.com/notnil/chess
-* Pieces created by Cburnett, accessed from Wikipedia with BSD license.
-(for example https://commons.wikimedia.org/wiki/File:Chess_kdt45.svg)
-
+This project builds upon the original work done by [Andy Williams](https://github.com/andydotxyz). We would like to thank them for developing the initial version and making it available as open source. Their work has been instrumental in the development of this Dero version.
+You can find the original repository [here](https://github.com/andydotxyz/chess)
 
 ## Running
 
-Just use the go tools to install on your system and run it.
+Fallow these commands to run Locally.
 
-    $ go get github.com/andydotxyz/chess
+    $ git clone https://github.com/Dero-Dev-101/chess.git
+    $ cd chess
+    $ go build
     $ ./chess
 
 ## Installing
@@ -35,8 +34,14 @@ To install alongside the other applications on your system use the `fyne` tool.
 - [x] Polish board and colours etc
 - [x] Handle user input
 - [x] Drag and drop for moves
-- [X] Take turns against a computer player
-- [X] Save state and restore on app launch
+- [x] Take turns against a computer player
+- [x] Save state and restore on app launch
+
+### Dero integration
+
+- [ ] Matrix chat
+- [ ] Dero Smart Contracts
+- [ ] Group/bundle chess moves into transactions
 
 TODO
 
